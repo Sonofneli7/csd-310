@@ -1,0 +1,23 @@
+//drop test user if exists
+DROP USER IF EXISTS 'pysports_user'@'localhost';
+//create pysports_user and them all the priveledges to the pysports database
+CREATE USER 'pysports_user'@'localhost' IDENTIFIED WITH mysql_native_password BY 'MySQL8IsGreat!';
+//grant all privileges to the pysports database to user pysport_user on local host
+GRANT ALL PRIVILEGES ON pysports.* TO'pysports_user'@'localhost';
+//drop tables if they are present
+DROP TABLE IF EXISTS player;
+
+//create the team table
+CREATE TABLE team (
+team_id		INT     		NOT NULL		AUTO_INCREMENT,
+team_name	VARCHAR(75)     NOT NULL,
+mascot 		VARCHAR(75)		NOT NULL,
+PRIMARY KEY(team_id)
+);
+
+//insert team records
+INSERT INTO team(team_name,mascot)
+	VALUES('Team Gandalf', 'White Wizards');
+
+//Select statement: return the team_id for the record where team_name equals Team Suaron
+SELECT team_id From team WHERE team_name = 'Team Sauron';
