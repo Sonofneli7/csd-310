@@ -10,10 +10,10 @@ Welcome to the CSD-310: Database and Development Use repository. This repository
 
 The repository includes examples and exercises that demonstrate:
 
--Designing efficient database schemas
--Writing and executing complex SQL queries
--Creating and managing relational databases
--Implementing best practices in database development and administration
+- Designing efficient database schemas
+- Writing and executing complex SQL queries
+- Creating and managing relational databases
+- Implementing best practices in database development and administration
 
 ## Technologies Used
 This project utilizes the following tools and technologies:
@@ -26,16 +26,16 @@ This project utilizes the following tools and technologies:
 ### Schema Design
 The repository contains exercises related to the design and development of relational database schemas. These exercises focus on:
 
--Defining entity-relationship diagrams (ERD)
--Normalization techniques (1NF, 2NF, 3NF)
--Creating tables with appropriate constraints (Primary Key, Foreign Key, etc.)
+- Defining entity-relationship diagrams (ERD)
+- Normalization techniques (1NF, 2NF, 3NF)
+- Creating tables with appropriate constraints (Primary Key, Foreign Key, etc.)
 
 ### Query Creation
 Develop complex SQL queries for real-world data extraction and manipulation:
 
--CRUD Operations: Create, Read, Update, Delete
--Aggregations, Joins, and Subqueries
--Data filtering and sorting with WHERE, ORDER BY, and GROUP BY
+- CRUD Operations: Create, Read, Update, Delete
+- Aggregations, Joins, and Subqueries
+- Data filtering and sorting with WHERE, ORDER BY, and GROUP BY
 
 ## Installation
 To get started with this project, follow the instructions below:
@@ -43,8 +43,8 @@ To get started with this project, follow the instructions below:
 ### Prerequisites
 Ensure that the following tools are installed on your system:
 
--MySQL Server: You can download it from the official MySQL website.
--MySQL Workbench or a similar SQL client for running and testing your queries.
+- MySQL Server: You can download it from the official MySQL website.
+- MySQL Workbench or a similar SQL client for running and testing your queries.
 
 ## Setup
 1. Clone the Repository:
@@ -59,8 +59,8 @@ cd csd-310
 ## Contributing
 If you'd like to contribute to this project:
 
--Fork the repository
--Create a new feature branch (git checkout -b feature-branch)
--Commit your changes (git commit -m 'Add new feature')
--Push to the branch (git push origin feature-branch)
--Create a pull request
+- Fork the repository
+- Create a new feature branch (git checkout -b feature-branch)
+- Commit your changes (git commit -m 'Add new feature')
+- Push to the branch (git push origin feature-branch)
+- Create a pull request
